@@ -1,0 +1,6 @@
+{
+  "name":"assurex-teachable-machine-runtime",
+  "version":"21.0.0",
+  "private":true,
+  "dependencies":{"@tensorflow/tfjs-node":"^4.22.0"}
+}

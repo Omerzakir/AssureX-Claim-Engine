@@ -1,0 +1,43 @@
+{
+  "version": "26.0.0",
+  "policies": {
+    "standard-manufacturer": {
+      "policy_id": "standard-manufacturer",
+      "name": "Standard Manufacturer",
+      "active": true,
+      "standard_months": 12,
+      "extended_months": 0,
+      "grace_period_days": 0,
+      "reporting_deadline_days": 30,
+      "covered_faults": [],
+      "excluded_faults": ["Misuse", "Accidents", "Water Damage"],
+      "unauthorized_repair_blocks": false,
+      "unauthorized_repair_count_threshold": 3,
+      "serial_mismatch_action": "manual_review",
+      "missing_documents_manual_review_threshold": 2,
+      "duplicate_action": "manual_review",
+      "contradiction_action": "manual_review",
+      "authorized_service_centre_required": false,
+      "replacement_conditions": []
+    },
+    "extended-24": {
+      "policy_id": "extended-24",
+      "name": "Extended 24 Month",
+      "active": false,
+      "standard_months": 12,
+      "extended_months": 12,
+      "grace_period_days": 0,
+      "reporting_deadline_days": 30,
+      "covered_faults": [],
+      "excluded_faults": ["Misuse", "Accidents", "Water Damage"],
+      "unauthorized_repair_blocks": false,
+      "unauthorized_repair_count_threshold": 3,
+      "serial_mismatch_action": "manual_review",
+      "missing_documents_manual_review_threshold": 2,
+      "duplicate_action": "manual_review",
+      "contradiction_action": "manual_review",
+      "authorized_service_centre_required": false,
+      "replacement_conditions": []
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "model_consistency": {
+    "strong_match_max_difference": 0.10,
+    "acceptable_match_max_difference": 0.20,
+    "weak_match_max_difference": 0.35,
+    "minimum_confidence": 0.55
+  }
+}

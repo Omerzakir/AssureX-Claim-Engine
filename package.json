@@ -1,0 +1,8 @@
+{
+  "name": "assurex-vercel-backend",
+  "private": true,
+  "version": "1.0.0",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.22.0"
+  }
+}
